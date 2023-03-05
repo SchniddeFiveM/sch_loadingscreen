@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Saira+Condensed:wght@300;600&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="background">
+        </div>
+        <div id="logo">
+			<div id="center">
+			</div>
+			<div id="images">
+				<label class="switch">
+					<div id="MusikText">MUSIK</div>
+					<input id="anaus" type="checkbox" onclick="onKeyDown()" checked>
+					<div class="slider round"></div>
+				</label>
+				<img id="franklin" src="images/franklin.png">
+				<div id="BlaulichtLinks"></div>
+				<div id="BlaulichtRechts"></div>
+				<div id="Servername"><font color="red">CHANGE-ME</font> ROLEPLAY</div>
+				<div id="Text">Willkommen auf <b>CHANGE-ME Roleplay!</b><p>Du hast es geschafft zu connecten und hoffentlich schaffst du es auch, dich zu benehmen. Wir legen großen Wert auf vernünftiges und lustiges RP, welches nicht immer 1 zu 1 wie in Echt sein muss. Wir erwarten von unseren Spielern jedoch schon, dass sie sich benehmen und an das Regelwerk halten.</p><p>Solltest du Fragen, Probleme oder sonstige Anregungen haben, melde dich gerne im Discord und das Team wird dir schnellstmöglich helfen! Natürlich hast du auch die Möglichkeit, Ingame einen Admin zu rufen (/support), jedoch sollte dies im Äußersten Notfall verwendet werden und bei kleinen Dingen sollte der Discord-Support die erste Lösung sein.</p></div>
+				<div id="DunkelForeground"></div>
+
+				<div id="DiscordBox"></div>
+				<div id="DiscordText1"><b>DISCORD</b></div>
+				<a id="DiscordText2" href="https://discord.gg/changeme">discord.gg/changeme</a>
+
+				<div id="SpracheBox"></div>
+				<div id="SpracheText1"><b>SPRACHCHAT</b></div>
+				<div id="SpracheText2">Ingame-Voice</div>
+
+				<iframe id="BackgroundVid" width="1920" height="1080" src="https://www.youtube.com/embed/Wqsg2vWHZBM?controls=0&showinfo=0&autoplay=1&mute=1&showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+            <!--div id="log" class="log">Error initializing log</div-->
+            <div id="debug" class="log log-top-right"></div>
+        </div>
+		
+		<script src="index.js" type="text/javascript"></script>
+    </body>
+    <audio id="music" src="music/music.mp3" autoplay="true" hidden="true" loop="true">
+	<script>
+		var play = false;
+		var myAudio = document.getElementById("music");
+		myAudio.volume = 0.3;
+		function onKeyDown(event) {
+			if (document.getElementById('anaus').checked){
+			myAudio.play();
+			play = true;
+			} else {
+			myAudio.pause();
+			play = false;
+    		}
+		  return false;
+		}
+    </script>
+</html>
