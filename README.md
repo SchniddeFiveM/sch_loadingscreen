@@ -9,3 +9,5 @@ Installieren:
 2. "start sch_loadingscreen" in die server.cfg eintragen
 3. Server neustarten
 4. Fertig.
+
+![image](https://user-images.githubusercontent.com/57913974/222976692-22ae0402-342f-430f-b588-b6ff88bcbb7e.png)
