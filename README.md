@@ -21,5 +21,5 @@ Install:
 3. Restart your server
 4. Done.
 
-![image](https://user-images.githubusercontent.com/57913974/222976692-22ae0402-342f-430f-b588-b6ff88bcbb7e.png)
 https://discord.gg/PQMZCSRk8F
+![image](https://user-images.githubusercontent.com/57913974/222976692-22ae0402-342f-430f-b588-b6ff88bcbb7e.png)
